@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+        nav{
+            height:100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: gold;
+        }
+
+        #menublock,
+        #logoblock{
+            height: 100px;
+            width: 400px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #menublock > a{
+            text-decoration: none;
+            color: black;
+        }
+        #logoblock img {
+            height: 140px;
+        }
+        #photoblock{
+            height: 85vh;
+            background-color: lightgray;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #left,
+        #right{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 500px;
+            width: 500px;
+            background-color: white;
+            border-radius: 30px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+        }
+        #photoblock img{
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="logoblock">
+            <img src="./logo-removebg-preview.png" alt="">
+            </div>
+            <div id="menublock" style="width: 600px">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">CONTACT</a>
+                 <a href="">PROFILE</a>
+        </div>
+    </nav>
+
+        <br/>
+
+        <div id="photoblock">
+            <div id="left">
+                <img src="http://www.pngall.com/wp-content/uploads/4/Headphone-Transparent-Image.png" alt="">
+            </div>
+            <div id="right">
+                <img src="https://static.vecteezy.com/system/resources/previews/046/947/122/non_2x/white-headphones-on-transparent-background-png.png" alt="">
+            </div>
+        </div>
+            
+</body>
+</html>

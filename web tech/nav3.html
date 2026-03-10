@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar Design</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #222831;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Brand */
+        .brand {
+            color: #00adb5;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* Menu */
+        .menu a {
+            color: #eeeeee;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .menu a:hover {
+            color: #00adb5;
+        }
+
+        /* Search */
+        .search input {
+            padding: 7px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        .search button {
+            padding: 7px 15px;
+            border-radius: 20px;
+            border: none;
+            background-color: #00adb5;
+            color: white;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        .search button:hover {
+            background-color: #019ca3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="brand">MyBrand</div>
+
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Type here...">
+            <button>Go</button>
+        </div>
+    </div>
+
+</body>
+</html>
