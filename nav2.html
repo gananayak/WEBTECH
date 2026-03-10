@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eee;
+            padding: 40px;
+        }
+
+        /* Common Navbar Style */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .brand {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+
+        .search-box input {
+            padding: 6px;
+            border-radius: 4px;
+            border: none;
+            outline: none;
+        }
+
+        .search-box button {
+            padding: 6px 12px;
+            border-radius: 4px;
+            border: none;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        /* Navbar Variants */
+        .dark {
+            background-color: #6c6c6c;
+            color: white;
+        }
+
+        .dark button {
+            background-color: #555;
+            color: white;
+        }
+
+        .blue {
+            background-color: #4a80ff;
+            color: white;
+        }
+
+        .blue button {
+            background-color: #2d5cff;
+            color: white;
+        }
+
+        .light {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .light a {
+            color: #333;
+        }
+
+        .light button {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Dark Navbar -->
+    <div class="navbar dark">
+        <div class="menu">
+            <div class="brand">Brand</div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <!-- Blue Navbar -->
+    <div class="navbar blue">
+        <div class="menu">
+            <div class="brand">Brand</div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <!-- Light Navbar -->
+    <div class="navbar light">
+        <div class="menu">
+            <div class="brand">Brand</div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </div>
+
+</body>
+</html>

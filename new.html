@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+        nav{
+            height:100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: gold;
+        }
+
+        #menublock,
+        #logoblock{
+            height: 100px;
+            width: 400px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #menublock > a{
+            text-decoration: none;
+            color: black;
+        }
+        #logoblock img {
+            height: 140px;
+        }
+        #photoblock{
+            border: 2px solid black;
+            height: 85vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #left,
+        #right{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 500px;
+            width: 500px;
+            background-color: white;
+            border-radius: 30px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+            border: 1px solid black;
+        }
+        #photoblock img{
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="logoblock">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.CukDXSevfNa1B9Z7vMf7yQHaEK?pid=Api&P=0&h=180" alt="">
+            </div>
+            <div id="menublock" style="width: 600px">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">CONTACT</a>
+                 <a href="">PROFILE</a>
+            </div>
+        </nav>
+            <br>
+
+            <div id="photoblock">
+                <div id="left">
+
+                </div>
+                <div id="right">
+                    
+                </div>
+            </div>
+</body>
+</html>

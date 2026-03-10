@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        img{
+            position: relative;
+            height:100px;
+            width: 130px;
+            animation: football 2s ease-in-out 0s infinite normal;
+        }
+
+        @keyframes football {
+            0%{
+                top: 0px;
+                transform: rotate(0deg);
+            }
+            50%{
+                top: 500px;
+                transform: rotate(360deg);
+            }
+            100%{
+                top: 0px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <img src="./football.png" alt="">
+</body>
+</html>
